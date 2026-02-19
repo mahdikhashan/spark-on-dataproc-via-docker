@@ -30,3 +30,6 @@ steps:
       - '--set-env-vars=PYTHON_FILE_URL=${_PYTHON_FILE_URL}'
       - '--set-env-vars=SOURCE_INPUT_LOCATION=${_SOURCE_INPUT_LOCATION}'
       - '--set-env-vars=TARGET_OUTPUT_LOCATION=${_TARGET_OUTPUT_LOCATION}'
+
+options:
+  logging: CLOUD_LOGGING_ONLY
